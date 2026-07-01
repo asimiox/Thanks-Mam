@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-cursive: 'Great Vibes', cursive;
+}
+
+/* Custom CSS Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(13, 11, 11, 0.95);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(183, 110, 121, 0.45);
+  border-radius: 9999px;
+  border: 1px solid rgba(212, 163, 115, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(183, 110, 121, 0.7);
+}
+
+/* Luxury animations and utility classes */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Fluid responsive background gradients */
+body {
+  background-color: #0D0B0B;
+  color: #FFF0F2;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Interactive elements transition rules */
+.interactive-element {
+  cursor: none !important; /* hide standard cursor on desktop to prioritize custom rose cursor */
+}
+
+@media (max-width: 768px) {
+  .interactive-element {
+    cursor: auto !important; /* restore on mobile touch devices */
+  }
+}

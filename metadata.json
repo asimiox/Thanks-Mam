@@ -1,0 +1,6 @@
+{
+  "name": "Thank You Mam Munazza",
+  "description": "A premium cinematic tribute of gratitude for an exceptional PTE teacher.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
