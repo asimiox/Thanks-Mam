@@ -303,7 +303,7 @@ export default function LetterCard({ isIntroComplete, onTriggerEnding }: LetterC
                           {/* Candidate info block */}
                           <div className="text-center mb-6">
                             <p className="text-[9px] font-sans text-white/40 tracking-widest uppercase">Candidate Name</p>
-                            <p className="text-lg font-serif font-medium text-[#FFF0F2] tracking-wide mt-1">Abdullah</p>
+                            <p className="text-lg font-serif font-medium text-[#FFF0F2] tracking-wide mt-1">Abdullah Sial</p>
                           </div>
 
                           {/* Interactive circular score gauge */}
@@ -406,7 +406,7 @@ export default function LetterCard({ isIntroComplete, onTriggerEnding }: LetterC
                   With sincere gratitude,
                 </p>
                 <p className="text-3xl font-bold tracking-tight text-[#FFF0F2] font-sans">
-                  Abdullah
+                  Abdullah Sial
                 </p>
                 <div className="w-16 h-[1px] bg-[#B76E79]/40 mr-2" />
               </div>

@@ -148,7 +148,7 @@ export default function EndingCinematic({ isActive, onComplete }: EndingCinemati
               Made with Gratitude
             </h2>
             <p className="text-xs text-[#D4A373] font-mono tracking-[0.2em] mt-3">
-              BY ABDULLAH
+              BY ABDULLAH SIAL
             </p>
           </div>
           
